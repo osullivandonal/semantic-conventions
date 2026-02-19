@@ -31,6 +31,7 @@ groups:
         requirement_level: opt_in
       - ref: process.creation.time
         role: identifying
+        requirement_level: required
       - ref: process.interactive
         role: descriptive
       - ref: process.title
