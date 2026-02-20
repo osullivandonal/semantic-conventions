@@ -64,7 +64,7 @@ linkTitle: Process
 
 ### Selecting process attributes
 
-The following attributes are **optional**, this is due to the potential changing nature of their values. For example calling [execve()](https://man7.org/linux/man-pages/man2/execve.2.html) can replace the current process image while retaining the same `process.pid`, which would cause the attributes below to change.
+The following attributes are **optional**, this is due to the potential changing nature of their values. For example calling [execve()](https://man7.org/linux/man-pages/man2/execve.2.html) can replace the current process while retaining the same `process.pid`, which would cause the attributes below to change.
 
 * [`process.executable.name`](../registry/attributes/process.md)
 * [`process.executable.path`](../registry/attributes/process.md)
