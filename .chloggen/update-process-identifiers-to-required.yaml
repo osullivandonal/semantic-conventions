@@ -21,5 +21,4 @@ issues: [864]
 # Use pipe (|) for multiline entries.
 subtext: |
   - Changed `process.pid` and `process.creation.time` to be `Required` (Identity).
-  - Changed `process.executable.name` to be `Required` (Description).
-  - Changed other process descriptive attributes to be `Optional`.
+  - Changed process descriptive attributes to be `Optional`.
