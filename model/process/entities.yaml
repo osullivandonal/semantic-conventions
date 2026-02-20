@@ -13,7 +13,7 @@ groups:
         role: descriptive
       - ref: process.executable.name
         role: descriptive
-        requirement_level: required
+        requirement_level: opt_in
       - ref: process.executable.path
         role: descriptive
         requirement_level: opt_in
